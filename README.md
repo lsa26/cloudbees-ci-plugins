@@ -12,7 +12,7 @@ It is useful for administrators or users responsible for individual Jenkins cont
 ## 💻 How to Use It
 
 1. Log into your Jenkins instance
-2. Go to: `Manage Jenkins` > `Script Console` https://your-jenkins-controller-url/script
+2. Go to: `Manage Jenkins` > `Script Console` or go directly to https://your-jenkins-controller-url/script
 3. Copy and paste the script below into the console:
    ```groovy
    def plugins = Jenkins.instance.pluginManager.plugins

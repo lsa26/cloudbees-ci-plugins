@@ -1,6 +1,6 @@
 def plugins = Jenkins.instance.pluginManager.plugins
-println "Total number of plugins installed on the controller : ${plugins.size()}\n"
-println "List of installed plugins :"
+println "Total number of installed plugins: ${plugins.size()}\n"
+println "List of installed plugins:"
 plugins.each {
     println "- ${it.getShortName()} (${it.getVersion()})"
 }
